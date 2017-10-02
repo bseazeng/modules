@@ -1,0 +1,4 @@
+insmod helloworld.ko
+dmesg | grep bseazeng
+rmmod helloworld.ko
+dmesg | grep bseazeng
